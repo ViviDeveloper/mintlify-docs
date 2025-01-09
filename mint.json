@@ -1,91 +1,67 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "Skyrlie Docs",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#FED8B0",
+    "light": "#FEE8CE",
+    "dark": "#CF8E75"
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://discord.gg/JD2KZJCTFt"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        {
+          "name": "Introduction",
+          "icon": "sparkles",
+          "iconType": "solid"
+        },
+        {
+          "name": "Variables",
+          "icon": "sliders",
+          "iconType": "solid"
+        }
       ]
     },
     {
-      "group": "Essentials",
+      "icon": "hand-wave",
+      "iconType": "solid",
+      "group": "greeting",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "name": "Welcome Messages"
+        },
+        {
+          "name": "Leave Messages"
+        },
+        {
+          "name": "Boost Messages"
+        },
+        {
+          "name": "modmail"
+        },
+        {
+          "name": "modmail support"
+        }
       ]
     },
     {
-      "group": "API Documentation",
+      "icon": "ticket",
+      "iconType": "solid",
+      "group": "tickets",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "name": "Creating a Panel"
+        },
+        {
+          "name": "Adding Categories"
+        }
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  ]
 }
