@@ -16,51 +16,29 @@
     {
       "group": "Get Started",
       "pages": [
-        {
-          "name": "Introduction",
-          "icon": "sparkles",
-          "iconType": "solid"
-        },
-        {
-          "name": "Variables",
-          "icon": "sliders",
-          "iconType": "solid"
-        }
+        "introduction/introduction",
+        "introduction/variables"
       ]
     },
     {
+      "group": "Greeting",
       "icon": "hand-wave",
       "iconType": "solid",
-      "group": "greeting",
       "pages": [
-        {
-          "name": "Welcome Messages"
-        },
-        {
-          "name": "Leave Messages"
-        },
-        {
-          "name": "Boost Messages"
-        },
-        {
-          "name": "modmail"
-        },
-        {
-          "name": "modmail support"
-        }
+        "greet/welcome",
+        "greet/boost",
+        "greet/modmail",
+        "greet/modmail-support"
       ]
     },
     {
+      "group": "Tickets",
       "icon": "ticket",
       "iconType": "solid",
-      "group": "tickets",
       "pages": [
-        {
-          "name": "Creating a Panel"
-        },
-        {
-          "name": "Adding Categories"
-        }
+        "tickets/introduction",
+        "tickets/panel"
+        "tickets/category"
       ]
     }
   ]
