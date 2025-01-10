@@ -37,7 +37,7 @@
       "iconType": "solid",
       "pages": [
         "tickets/introduction.mdx",
-        "tickets/panel.mdx"
+        "tickets/panel.mdx",
         "tickets/category.mdx"
       ]
     }
