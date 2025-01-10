@@ -16,8 +16,8 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction/introduction",
-        "introduction/variables"
+        "introduction/introduction.mdx",
+        "introduction/variables.mdx"
       ]
     },
     {
@@ -25,10 +25,10 @@
       "icon": "hand-wave",
       "iconType": "solid",
       "pages": [
-        "greet/welcome",
-        "greet/boost",
-        "greet/modmail",
-        "greet/modmail-support"
+        "greet/welcome.mdx",
+        "greet/boost.mdx",
+        "greet/modmail.mdx",
+        "greet/modmail-support.mdx"
       ]
     },
     {
@@ -36,9 +36,9 @@
       "icon": "ticket",
       "iconType": "solid",
       "pages": [
-        "tickets/introduction",
-        "tickets/panel"
-        "tickets/category"
+        "tickets/introduction.mdx",
+        "tickets/panel.mdx"
+        "tickets/category.mdx"
       ]
     }
   ]
